@@ -1,14 +1,14 @@
 package org.homework.di;
 
+import org.homework.api.CommandService;
 import org.homework.services.CommandServiceImpl;
 import org.homework.services.CurrencyServiceImpl;
 import org.homework.bot.Bot;
-import org.homework.services.CommandService;
 
 public class DIContainer {
-    public static Bot createBot() {
+    public static <CommandService> Bot createBot() {
         CurrencyServiceImpl currencyService = new CurrencyServiceImpl();
-        CommandService commandService = new CommandServiceImpl(currencyService);
-        return new Bot(commandService);
+        CommandService commandService = (CommandService) new CommandServiceImpl(currencyService);
+        return new Bot((org.homework.api.CommandService) commandService);
     }
 }

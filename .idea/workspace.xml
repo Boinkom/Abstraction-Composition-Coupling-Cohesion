@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15dd3c41-17d5-4d07-9866-96c84a16bc19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework/logger/LoggerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework/api/CurrencyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework/api/CommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework/api/CommandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework/bot/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework/bot/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework/di/DIContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework/di/DIContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework/logger/LoggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework/logger/LoggerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework/services/BasicHttpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework/services/BasicHttpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework/services/CommandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework/services/CommandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework/services/CurrencyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework/services/CurrencyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework/services/DataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework/services/DataServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -93,6 +101,7 @@
       <workItem from="1724247434273" duration="326000" />
       <workItem from="1724248008384" duration="28000" />
       <workItem from="1724248083818" duration="142000" />
+      <workItem from="1724316621068" duration="712000" />
     </task>
     <servers />
   </component>

@@ -9,6 +9,7 @@ import org.apache.http.util.EntityUtils;
 import org.homework.api.HttpService;
 import org.homework.di.annotations.Register;
 import org.homework.di.annotations.Resolve;
+import org.homework.logger.Logger;
 
 import java.io.IOException;
 import java.net.URISyntaxException;

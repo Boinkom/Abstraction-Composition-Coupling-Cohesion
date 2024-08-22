@@ -1,13 +1,21 @@
 package org.homework.services;
 
+import org.homework.api.CurrencyService;
 import org.homework.logger.Logger;
 import org.homework.logger.LoggerImpl;
 
 import java.io.IOException;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.util.EntityUtils;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 
 public class CurrencyServiceImpl implements CurrencyService {
     private static final String API_URL = "https://api.exchangerate-api.com/v4/latest/";
-    private final Logger logger = new LoggerImpl(CurrencyServiceImpl.class);
+    private final Logger logger = (Logger) new LoggerImpl(CurrencyServiceImpl.class);
 
     @Override
     public double getExchangeRate(String from, String to) throws IOException {

@@ -1,5 +1,6 @@
 package org.homework.services;
 
+import org.homework.api.CommandService;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
 
@@ -7,9 +8,9 @@ import java.io.IOException;
 
 public class CommandServiceImpl implements CommandService {
 
-    private final CurrencyService currencyService;
+    private final CurrencyServiceImpl currencyService;
 
-    public CommandServiceImpl(CurrencyService currencyService) {
+    public CommandServiceImpl(CurrencyServiceImpl currencyService) {
         this.currencyService = currencyService;
     }
 

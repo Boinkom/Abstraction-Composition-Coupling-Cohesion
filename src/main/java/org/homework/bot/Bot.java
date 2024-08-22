@@ -1,6 +1,6 @@
 package org.homework.bot;
 
-import org.homework.services.CommandService;
+import org.homework.api.CommandService;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
